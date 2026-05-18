@@ -32,7 +32,6 @@
 }
 
 .brand-lockup,
-.nav-meta,
 .proof-row,
 .status-pill,
 .guided-button,
@@ -58,17 +57,6 @@
   height: 32px;
   justify-content: center;
   width: 32px;
-}
-
-.nav-meta {
-  color: #607086;
-  font-size: 13px;
-  gap: 18px;
-}
-
-.nav-meta span + span {
-  border-left: 1px solid #d6dee9;
-  padding-left: 18px;
 }
 
 .hero-editorial {
@@ -1297,17 +1285,6 @@ input:disabled {
     gap: 10px;
     padding-bottom: 14px;
     padding-top: 14px;
-  }
-
-  .nav-meta {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 4px;
-  }
-
-  .nav-meta span + span {
-    border-left: 0;
-    padding-left: 0;
   }
 
   h1 {

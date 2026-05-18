@@ -618,10 +618,6 @@ function App() {
             </span>
             <span>Aegis Support</span>
           </div>
-          <div className="nav-meta">
-            <span>Hackathon build</span>
-            <span>{health?.ok ? `${health.model} connected` : health?.status === 'quota_exhausted' ? 'Gemini quota fallback' : 'Gemini fallback active'}</span>
-          </div>
         </nav>
 
         <div className="hero-editorial">
